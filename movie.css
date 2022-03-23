@@ -1,0 +1,88 @@
+body{
+    background-color: #283047;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("film.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.menu ul{
+    font-size: 1.4em;
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.menu li{
+    
+    float: right;
+}
+.menu a{
+    
+    display: block;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    color:#f0ffff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.menu ul {
+    padding: 0;
+    overflow: hidden;
+    background-color: #6A7594;
+    list-style:none;
+}
+
+
+
+li a:hover{
+    background-color: #8F9EC7;
+}
+
+
+
+
+.bookdiv{
+    margin-top: 40px;
+    width: 40%;
+    height: 40%;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.bookdiv h1{
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.border1, .border2, .border3, .border4{
+    background-color:#809BBF;
+    width: 100px;
+    border: 1px solid white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+  
+}
+
+.bookdiv a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-style: bold;
+}
+
+
+
+
